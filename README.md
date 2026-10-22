@@ -84,7 +84,18 @@ process, and **F10** stands everyone back up. The first experiment in the same g
 | **Circuit breaker** | Three failures of the same kind = stop patching, go back to reading. This is what finally fixed the Evening loop and the Recruit button. |
 | **Evidence, not claims** | Every test run is logged with what was assumed; the final match was recorded with a timeline and a manifest (plugin version, sha256, event counts, errors). |
 
-Full write-up: [docs/method.md](docs/method.md) · The hard lessons, bug by bug: [docs/bug-journal.md](docs/bug-journal.md)
+Full write-up: [docs/method.md](docs/method.md) · Step by step: [docs/using-ret.md](docs/using-ret.md) · The hard lessons, bug by bug: [docs/bug-journal.md](docs/bug-journal.md)
+
+## Use it on your own project
+
+The workflow above is written up as a step-by-step guide: recon and the go / caution / stop verdict, snapshots, choosing
+a loader (BepInEx for Unity, UE4SS for Unreal), reading before writing, trace-then-imitate, testing like an experiment,
+and recording the result. It is not game-specific: the same loop works for understanding or extending any program you
+own. **[docs/using-ret.md](docs/using-ret.md)**
+
+> **Responsible use.** RET is for software you own, offline: single-player mods, learning, interoperability,
+> preservation. Not for cheating in online games, bypassing DRM or anti-cheat, piracy, or anything that harms others;
+> recon refuses anti-cheat games on purpose. You are responsible for how you use it. **[RESPONSIBLE_USE.md](RESPONSIBLE_USE.md)**
 
 ## Quick start (toolkit)
 
@@ -110,7 +121,7 @@ src/tools/interop-inspect/          C# tool: signatures of the assemblies BepInE
 src/agents/root-bepinex/            Spinners of Mercy plugin, BepInEx install/uninstall, HUD art cutter, match recorder
 src/agents/sherlock-ue4ss/          RetVagabond Lua mod
 experiments/                        Root effect/character extraction and re-simulation; s1_probe = the speed probe
-docs/                               method, the two mods, bug journal
+docs/                               method, using RET, the two mods, bug journal
 media/                              videos, previews, stills
 ```
 

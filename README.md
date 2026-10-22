@@ -121,7 +121,9 @@ media/                              videos, previews, stills
   Tabletop Simulator "Root - Ultimate Collection"). The Spinners art seen in the videos and stills is their work. This
   project only ports their faction into the digital game, for the Root community, non-commercially. **No fan art is
   included in this repository**: `make_hud_art.py` cuts it from the user's own copy of the fan files, and the plugin loads it from there. If the
-  creators would like their art or footage of it removed from this page, it will be removed.
+  creators would like their art or footage of it removed, please
+  [open an issue](../../issues) on this repository (or use the contact on the owner's GitHub profile) and it will be
+  removed.
 - ***Root*** is by **Leder Games**; the digital edition by **Dire Wolf**. ***Sherlock Holmes: The Awakened*** is by
   **Frogwares**. RET is not affiliated with or endorsed by any of them. No game files, extracted assets or generated
   interop assemblies are distributed here; every mod needs the user's own legally owned copy, played offline.

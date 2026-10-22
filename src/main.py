@@ -1,4 +1,4 @@
-"""ret — reverse engine tool. Wiring only; the logic is in core/ and utils/.
+"""ret — The Reversal Engine. Wiring only; the logic is in core/ and utils/.
 
     .venv/bin/python src/main.py recon <game folder>
     .venv/bin/python src/main.py snapshot <game folder>
@@ -88,7 +88,7 @@ def cmd_assets(game: Path, pattern: str | None) -> int:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(prog="ret", description="reverse engine tool")
+    ap = argparse.ArgumentParser(prog="ret", description="The Reversal Engine")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("recon", help="fingerprint a game (read-only)").add_argument("game", type=Path)
     sub.add_parser("snapshot", help="record every file before a change").add_argument("game", type=Path)

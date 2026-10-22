@@ -1,6 +1,6 @@
 <div align="center">
 
-# RET: the Reverse Engine Tool
+# The Reversal Engine (RET)
 
 **A method and a toolkit for taking a shipped game apart, safely, and putting something new inside it.**
 

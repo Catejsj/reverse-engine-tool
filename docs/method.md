@@ -1,4 +1,4 @@
-# The RET method
+# The RET method (The Reversal Engine)
 
 RET started as a toolkit and turned into a way of working. The toolkit answers "what is this game made of?"; the
 method answers "how do I change it without spending a week on crashes?". Both were shaped by two real projects (a new

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(HOME)/ret-work/root/plugin-build/inspect-obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(HOME)/ret-work/root/plugin-build/inspect-bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

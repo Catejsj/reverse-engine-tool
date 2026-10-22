@@ -1,0 +1,6 @@
+[project]
+name = "ret"
+version = "0.0.1"
+description = "reverse engine tool: game recon, snapshots, mods"
+requires-python = ">=3.11"
+dependencies = ["UnityPy==1.25.2"]

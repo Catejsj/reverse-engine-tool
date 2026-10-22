@@ -1,0 +1,2 @@
+# Root extraction (stage 2), read-only on Root
+UnityPy==1.25.2

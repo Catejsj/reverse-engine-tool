@@ -1,0 +1,7 @@
+<Project>
+  <!-- Build output stays outside the repository (it links against Root's generated interop assemblies). -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(HOME)/ret-work/root/plugin-build/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(HOME)/ret-work/root/plugin-build/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

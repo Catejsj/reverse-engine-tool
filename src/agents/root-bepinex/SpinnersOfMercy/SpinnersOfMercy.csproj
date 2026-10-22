@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BepInEx 6 be.788 runs plugins on its bundled .NET 6 runtime, so the plugin targets net6.0. -->
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>RetSpinnersOfMercy</AssemblyName>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootGame>$(HOME)/.local/share/Steam/steamapps/common/Root</RootGame>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(RootGame)/BepInEx/core/BepInEx.Core.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/core/BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/core/Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/tuber-canis.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Canis.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Il2CppSystem.Core.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Utils.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/tuber-client.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/core-canis.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/voodoo.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Attributes.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/UnityEngine.AnimationModule.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/core-prompter.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/UnityEngine.UI.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/UnityEngine.UIModule.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/UnityEngine.InputLegacyModule.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/Networking.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/interop/UnityEngine.ImageConversionModule.dll" Private="false" />
+    <Reference Include="$(RootGame)/BepInEx/core/0Harmony.dll" Private="false" />
+  </ItemGroup>
+</Project>

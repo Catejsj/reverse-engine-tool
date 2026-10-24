@@ -84,7 +84,7 @@ process, and **F10** stands everyone back up. The first experiment in the same g
 | **Circuit breaker** | Three failures of the same kind = stop patching, go back to reading. This is what finally fixed the Evening loop and the Recruit button. |
 | **Evidence, not claims** | Every test run is logged with what was assumed; the final match was recorded with a timeline and a manifest (plugin version, sha256, event counts, errors). |
 
-Full write-up: [docs/method.md](docs/method.md) · Step by step: [docs/using-ret.md](docs/using-ret.md) · The hard lessons, bug by bug: [docs/bug-journal.md](docs/bug-journal.md)
+Full write-up: [docs/method.md](docs/method.md) · Step by step: [docs/using-ret.md](docs/using-ret.md) · The hard lessons, bug by bug: [docs/bug-journal.md](docs/bug-journal.md) · Per engine (Unity IL2CPP, Unreal): [docs/engine-playbook.md](docs/engine-playbook.md)
 
 ## Use it on your own project
 

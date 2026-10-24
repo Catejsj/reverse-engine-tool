@@ -1,6 +1,6 @@
 # Using RET on your own project
 
-This is the workflow from [method.md](method.md) as a checklist you can follow on a game (or other program) of your
+This is the workflow from [method.md](method.md) as a checklist (engine-level detail for Unity IL2CPP and Unreal: [engine-playbook.md](engine-playbook.md)) you can follow on a game (or other program) of your
 own. Read [RESPONSIBLE_USE.md](../RESPONSIBLE_USE.md) first: RET is for software you own, offline, and it refuses some
 targets on purpose.
 
